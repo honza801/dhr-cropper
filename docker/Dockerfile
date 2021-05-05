@@ -1,7 +1,5 @@
-FROM debian
+FROM nginx
 
-RUN apt update -qq; apt install curl nginx -y; apt clean -y
+RUN apt update -qq; apt install curl unzip -y; apt clean -y
 
-COPY download-and-crop.sh /usr/local/bin/download-and-crop.sh
-
-CMD /usr/local/bin/download-and-crop.sh
+COPY 90-download-and-crop.sh /docker-entrypoint.d/

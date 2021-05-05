@@ -60,4 +60,4 @@ do
 done
 printf "\n\nDone. Artifacts kept in step[1-5].$$\nYour `ls step5.$$ | wc -l` images are in step5.$$\n\n"
 
-
+nginx
