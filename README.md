@@ -6,6 +6,11 @@ inspiration from
 wget https://raw.githubusercontent.com/CESNET/DHuSTools/master/gist/download-and-crop.sh
 ```
 
+# docker env variables
+
+Mandatory COORDS fe. 49.72,13.45
+Optional SCRATCH defaults /usr/share/nginx/html
+
 # github repo auth
 
 goto https://github.com/settings/tokens, create token with `read:packages` scope.
